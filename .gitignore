@@ -1,0 +1,40 @@
+# 忽略所有文件
+*
+# 但是不忽略目录
+!*/
+# 不忽略.py文件
+!*.py
+# 不忽略.gitignore文件
+!.gitignore
+# 不忽略README文件（如果有的话）
+!README.md
+
+# 明确排除的文件类型
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.csv
+*.json
+*.txt
+*.log
+*.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+models/
+checkpoints/
+results/
+*.pth
+*.pt
+*.pkl
+*.npy
+*.npz
+data/
+ckpt/
+*.pyc
+__pycache__/
